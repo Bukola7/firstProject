@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.colour{
+    background-color: white;
+}
+
+.size{
+    
+    background-color: white;
+    color: white;
+}
+
+
+.section1{
+    width: 100%;
+    height: 80rem;
+    background-color: orangered;
+}
+.text{
+    padding-top: 10rem;
+    color: white;
+}
+.text1{
+    font-size: 2rem;
+    padding-top: -1rem;
+}
+.text2{
+    font-size: 3rem;
+}
+.text2 button{
+    width: 23%;
+    height: 3.5rem;
+    font-size: 1.2rem;
+    border-radius: 2vh;
+    outline: none;
+    border: none;
+    color: rgb(45, 45, 218);
+    font-weight:500;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+   
+}
+
+ 
+
+.real{
+    padding-top: 10rem;
+    color: white;
+}
+
+.time{
+    font-size: 1.5rem;
+     font-family:Arial, Helvetica, sans-serif;
+}
+.eco button{
+    width: 55%;
+    height: 4.8rem;
+    background-color: orangered;
+    text-transform: capitalize;
+    color: white;
+   border-color: white;
+   font-size: .7rem;
+}
+
+.taxt{
+    width: 90%;
+    /* height: 150%; */
+    background-color: white;
+    border-radius: 2rem;
+    margin-top: 4rem;
+    font-size: 1rem;
+}
+.spac{
+    margin-left: 3rem;
+    padding-top: 5rem;
+    font-size: 1rem;
+}
+.logo{
+   font-size: .7rem;
+   font-weight: 550;
+   padding-top: 1.5rem;
+   
+}
+
+.study{
+    font-size: .9rem;
+    margin-top: 1rem;
+    color: black;
+    
+}
+.cas{
+    margin-top: .6rem;
+}
+.si li{
+    
+    padding-bottom: 20px;
+    
+}
+.fon{
+    font-size: 1rem;
+}
+
+.study hr{
+    margin-top: 5rem;
+}
+.app{
+    font-size: 1rem;
+}
+
+.daze{
+    line-height-step: 2vh;
+}
+.su button{
+    width: 70%;
+    
+}
+.ken{
+    margin-top: 30px;
+    font-size: 1rem;
+}
+.seu{
+    padding-top: 35rem;
+}
+.tobi button{
+    width:20%;
+    margin-top: 10vh;
+}
+.titi{
+    width: 50%;
+    font-size: 1rem;
+}
+.ma{
+    padding-top: 2rem;
+}
+.nike{
+    padding-top: 2rem;
+    font-size: 1rem;
+}
+.we{
+    margin-top: 3rem;
+}
+.du{
+    width: 50%;
+    margin-top: 3rem;
+    font-size: 1rem;
+}
+
+.you{
+    margin-top: 10vh;
+}
+.to{
+    width: 50%;
+}
+
+    
+.be button{
+    width: 70%;
+    height: 10vh;
+    margin-top: 7vh;
+}
+.se{
+    margin-top: 8vh;
+}
+.app{
+    width: 60%;
+}
+.go{
+    margin-top: 2rem;
+}
+.on{
+    width: 60%;
+}
+.md{
+    margin-top: 4rem;
+}
+

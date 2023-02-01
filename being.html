@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bootstrap-5.2.3-dist/bootstrap-5.2.3-dist/css/bootstrap.min.css">
+    <script src="bootstrap-5.2.3-dist/bootstrap-5.2.3-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="being.css">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            margin-bottom: 200px;
+        }
+        img{
+            float: left;
+            
+        }
+        
+        .float p{
+
+            float: right;
+            width: 25%;
+            padding: 1rem;
+        }
+
+        .flex{
+            display: flex;
+            flex-direction:  row-reverse;
+            flex-wrap: wrap;
+            /* flex-direction: row; */
+
+        }
+        .flex img{
+            width: 50%; 
+            padding: .5rem;
+        }
+        .inline a{
+            padding: 2rem;
+            /* display: inline-block; */
+            display: block;
+        }
+        .grid{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            padding: 3rem;
+
+        }
+        .grid-image img{
+           
+            padding: 2rem;
+
+        }
+        .box-img img{
+            box-shadow: 10px 10px 10px red;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <p style="margin-bottom: 2rem ;">
+    <img src="image/Gardening-advice-for-beginners-1.jpg" width="200" height="100" />
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit autem qui perferendis vel deleniti dignissimos quae recusandae dolores, ipsam, non laudantium quod repellat neque velit voluptatibus iusto commodi omnis beatae consequuntur. Velit recusandae magni officiis nam ex eum alias provident soluta! Aliquid soluta necessitatibus delectus labore enim exercitationem dicta dolorem at magnam recusandae, magni neque veniam quaerat inventore quam eum reiciendis et? Architecto placeat dolore minima magni quae adipisci maiores cumque, ducimus vitae amet eligendi magnam voluptatem culpa est accusantium illum suscipit inventore temporibus. Optio quo aspernatur ullam nesciunt, animi libero magnam et explicabo, quibusdam vero eos in tempore quia?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum praesentium tenetur beatae animi a totam! Aperiam eligendi architecto odit nihil inventore ab. Libero illo eveniet ullam possimus reprehenderit minima sint!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia porro aperiam soluta, quibusdam quidem culpa commodi, nesciunt recusandae minima iste fugiat ad consequuntur maxime non obcaecati explicabo dolore iure? Perferendis voluptas repudiandae culpa quia voluptatem nulla, fugit ipsa dolor. Magni cum placeat optio maiores ad error quidem quaerat inventore odio fuga necessitatibus debitis, ipsum ipsa! Neque ipsa quisquam ea ipsum, corporis natus atque sunt aperiam nihil ratione accusantium asperiores tempore quo cupiditate, illo earum quos? Corrupti eum quia sapiente necessitatibus ipsam mollitia. Officiis ex asperiores sit harum dignissimos, eaque explicabo minima eos incidunt qui nulla voluptas inventore quam fugit amet.
+    </p>
+    <div class="float">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam aspernatur obcaecati earum dolorum vel praesentium perspiciatis magni, nobis necessitatibus eveniet ea veniam quaerat eum recusandae autem eaque. Totam, dolores iure.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quo distinctio perferendis assumenda quibusdam fuga, provident adipisci tenetur praesentium quos dolorem deleniti error inventore esse, iure eaque voluptatibus labore facere.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae incidunt repellendus totam officiis. Consequuntur voluptates quo eius neque quaerat quod molestiae nemo. Voluptatum odit aliquam perferendis dolore exercitationem, deleniti ex?
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita et dolore provident necessitatibus mollitia sed unde veniam exercitationem, laborum dolores ab consequatur natus sunt in, obcaecati vitae. Rerum, sint reiciendis!
+        </p>
+    </div>
+    <br />
+    <div class="flex">
+        <img src="image/ch8.jpg"  width="200" height="100"/>
+        <img src="image/ben.png " width="200" height="100"/>
+        <img src="image/Gardening-advice-for-beginners-1.jpg"  width="200" height="100"/>
+        <img src="image/123-1230334_the-christ-apostolic-church-christ-apostolic-church-logo.png"  width="200" height="100"/>
+    </div>
+    <div class="inline">
+        <a href="">lorem</a>
+        <a href="">come</a>
+        <a href="">commanding</a>
+        <a href="">singing</a>
+    </div>
+    <div class="grid">
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus quas enim eos in id maxime, veniam voluptatibus quam culpa fugiat animi perspiciatis similique commodi. Repellendus ea eveniet cupiditate magni odit!
+        </p>
+
+        <div class="grid-image">
+            <img src="image/ben.png" class="img-fluid" />
+         </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa veniam aspernatur modi corrupti rerum tenetur commodi quidem nemo, fugiat facilis vitae magnam, voluptatum porro optio nostrum? Cupiditate dicta officiis perferendis.</p>
+    </div>
+    <div class="box-img" style="height: 10rem; width: 40%;">
+        <img src="image/ben.png" class="img-fluid"/>
+    </div>
+</body>
+</html>

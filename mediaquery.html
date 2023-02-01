@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .flex{
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .flex p{
+            width: 33%;
+            padding: 1rem;
+        }
+        @media screen and (max-width: 768px) {
+            .flex p{
+                width: 50%;
+                padding: 3rem;
+                color: yellow;
+            }
+            
+        }
+
+        @media screen and (max-width: 576px){
+           .flex p{
+            width: 100%;
+            padding: 3rem;
+            color: RED;
+           }
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="flex">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ea in dicta re pellat sunt doloribus, esse non voluptate dolor cupiditate rerum est illum optio expedita aliquam quod alias. Unde quidem, blanditiis ab totam dolor temporibus, voluptatibus sit ut omnis fugiat praesentium dolore libero debitis asperiores? Molestias similique voluptas perferendis dolores!
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ea in dicta repellat sunt doloribus, esse non voluptate dolor cupiditate rerum est illum optio expedita aliquam quod alias. Unde quidem, blanditiis ab totam dolor temporibus, voluptatibus sit ut omnis fugiat praesentium dolore libero debitis asperiores? Molestias similique voluptas perferendis dolores!
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ea in dicta repellat sunt doloribus, esse non voluptate dolor cupiditate rerum est illum optio expedita aliquam quod alias. Unde quidem, blanditiis ab totam dolor temporibus, voluptatibus sit ut omnis fugiat praesentium dolore libero debitis asperiores? Molestias similique voluptas perferendis dolores!
+        </p>
+    </div>
+</body>
+</html>

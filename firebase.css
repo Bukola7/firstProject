@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.colour{
+    background-color:white;
+}
+.size{
+    
+    border-radius:none;
+    outline: none;
+    background-color: white;
+    text-transform: capitalize;
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.saze{
+   
+    border-radius:none;
+    outline: none;
+    background-color: white;
+    text-transform: capitalize;
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+
+}
+
+.gaze{
+    
+    border-radius:none;
+    outline: none;
+    background-color: white;
+    text-transform: capitalize;
+    font-size: 1rem;
+    padding: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+.second{
+    width: 100%;
+    height: 70rem;
+    background-color: orangered;
+    position:absolute;
+}
+.head{
+    padding-top: 8rem;
+    padding-left: 10rem;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.header-text{
+    color: white;
+    font-size: 2rem;
+}
+.sub-text{
+    color: white;
+    font-size: 3.5rem;
+}
+.sub-text button{
+    width: 23%;
+    height: 3.5rem;
+    font-size: 1.2rem;
+    border-radius: 2vh;
+    outline: none;
+    border: none;
+    color: rgb(45, 45, 218);
+    font-weight:500;
+    font-family: 'Times New Roman', Times, serif;
+}
+.logo-text{
+    display: flex;
+    justify-content: space-around;
+    padding: 5;
+    padding-top: 8rem;
+    color: white;
+}
+.text1{
+    font-size: 1.5rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text2 button{
+    width: 150%;
+    height: 5.5rem;
+    background-color: orangered;
+    text-transform: capitalize;
+    color: white;
+   border-color: white;
+   font-size: 1rem;
+
+}
+.text3{
+    text-transform: capitalize;
+}
+
+.work{
+    width: 90%;
+    height: 150%;
+    background-color: white;
+    margin-top: 5rem;
+    border-radius: 2rem;
+    margin-left: 5%;
+}
+
+.taxt{
+    margin-left: 5rem;
+    padding-top: 4rem;
+}
+.pict{
+    display: inline-flex;
+    padding: 10px;
+    
+    
+}
+
